@@ -1,0 +1,97 @@
+
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header{
+   padding-top: 75px;
+    background-color: #648769;
+    height: 430px;
+}
+
+.cabecalho img{
+    margin-left: 45px;
+    width: 600px;
+    height: 355px;
+}
+.cabecalho h1{
+    padding-top: 37px;
+    color: white;
+    font-size: 97px;
+}
+
+main{
+    background-color: white;
+    padding-top: 97px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.experiencia p{
+    font-size: 58px;
+    margin-bottom: 120px;
+}
+
+span{
+    color: #2A5B31;
+}
+
+.textos{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+}
+
+.quadrados{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+    padding: 15px;
+   
+}
+
+.quadrados img{
+    width: 145px;
+    height: 150px;
+    align-items: center;
+   
+}
+
+h4{
+    font-size: 40px;
+    text-align: justify;
+}
+
+.quadrados p{
+    font-size: 30px;
+}
+
+.livro{
+    width: 120px;
+    height: 100px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #648769;
+    color: white;
+    height: 390px;
+    margin-top: 60px;
+}
+h2{
+    font-size: 90px;
+}

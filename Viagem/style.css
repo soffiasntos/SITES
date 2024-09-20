@@ -1,0 +1,74 @@
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+
+justify-content: space-between;
+    background-color: #1D0F6E;
+    color: white;
+    padding: 15px 80px;
+    font-size: 17px;
+}
+
+.aviao{
+    background-image: url(img/aviao.png);
+    height:780px;
+}
+
+.aviao p{
+    padding-top: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 85px;
+    color: white;
+}
+
+.pacotes{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 75px;
+    color: #1D0F6E;
+   
+}
+
+.locais{
+    display: flex;
+    flex-direction: row;
+    padding left: 85px;
+    justify-content: center;
+    
+}
+.quadrados{
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    margin: 47px;
+    
+}
+
+.quadrados img{
+    height: 480px;
+    width: 300px;
+
+   
+}
+
+.quadrados p{
+    font-size: 30px;
+}
+
+span{
+    font-size: 20px
+}
